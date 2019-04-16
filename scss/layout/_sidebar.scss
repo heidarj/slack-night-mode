@@ -13,6 +13,7 @@
 
   &__channel,
   &__link {
+
     &,
     &:link,
     &:visited,
@@ -55,6 +56,7 @@
   }
 
   &__channel--selected {
+
     &::before,
     &:hover::before,
     &::after,
@@ -64,6 +66,7 @@
   }
 
   &__link--selected {
+
     &::before,
     &::after {
       color: $base-font-color;
@@ -117,7 +120,7 @@
       .group_name,
       .im_name,
       .mpim_name,
-      > a {
+      >a {
         background: $color-shade-dark;
         color: rgba($base-font-color, 0.8) !important;
 
@@ -129,6 +132,7 @@
       }
 
       .primary_action {
+
         &.im_name:hover .im_name_background,
         &.feature_user_custom_status:hover .im_name_background,
         &:not(.feature_user_custom_status):hover {
@@ -185,7 +189,7 @@
   background: $color-shade-dark;
   border-top: 2px solid $color-shade-dark;
 
-  > i {
+  >i {
     color: $color-highlight;
   }
 
@@ -194,7 +198,7 @@
     background: $color-base;
     border-color: $color-base;
 
-    > i {
+    >i {
       color: $base-link-color;
     }
 
@@ -228,7 +232,7 @@
 
   &__message--truncate {
     &::before {
-      background: linear-gradient(180deg,transparent,$color-shade-dark 90%);
+      background: linear-gradient(180deg, transparent, $color-shade-dark 90%);
     }
   }
 
